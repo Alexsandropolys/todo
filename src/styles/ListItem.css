@@ -1,0 +1,18 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: 1px solid darkblue;
+}
+
+.add-button {
+  width: 50px;
+  align-self: flex-end;
+}
+
+.list-item__delete-button {
+}
+
+.stroked {
+  text-decoration: line-through;
+}
