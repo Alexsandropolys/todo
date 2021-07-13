@@ -2,9 +2,6 @@ import React from "react";
 import "../styles/ListItem.css";
 
 export default class ListItem extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   onCheck = () => {
     this.props.changeHandler(this.props.id);
   };

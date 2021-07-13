@@ -27,8 +27,6 @@ export default class ToDoList extends React.Component {
       ],
     };
   }
-  componentDidMount() {}
-
   addClick = (e) => {
     e.preventDefault();
     this.setState((state) => {
